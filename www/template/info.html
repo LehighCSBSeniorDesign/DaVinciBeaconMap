@@ -1,0 +1,34 @@
+<ion-view view-title="{{name}}">
+    <ion-content class="padding">
+        <div class="content">
+            <div class="title">
+                <h1>{{name}}</h1>
+            </div>
+            <br />
+            <div class="imageLayer">
+                <img src="img/{{picture}}" alt="picture">
+            </div>
+
+            <br/>
+
+            <div class="body">
+                <p>
+                    {{info}}
+                </p>
+            </div>
+            <div class="row" ng-repeat="rows in splitData">
+                <div class="col col-33" ng-repeat="data in rows">
+                    <a class="card" href='#/tab/cards/{{areaId}}/{{data.id}}'>
+                        <div class="card display">
+                            <div class="item item-divider" ng-class="{'item-energized': checkYellow(data.minor), 'item-balanced': checkGreen(data.minor)}">
+                                {{data.name}}
+                            </div>
+                            <div class="content">
+                                <img src="img/{{data.picture}}" alt="picture">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    </ion-content>
+</ion-view>

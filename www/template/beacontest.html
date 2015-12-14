@@ -1,0 +1,69 @@
+<ion-view view-title="Beacon Controller Front-Face">
+    <ion-content>
+        <div class="list">
+            <div class="item">
+                <div class="row">
+                    Green Zone (just in range beacons)
+                </div>
+            </div>
+            <div class="item" ng-repeat="(key, value) in beacons">
+                <div class="row">
+                    <div class="col truncate">
+                        Minor: {{key}}
+                    </div>
+                    <div class="col truncate">
+                        Major: {{value}}
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    Red Zone (those that are below {{NV}})
+                </div>
+            </div>
+            <div class="item" ng-repeat="(key, value) in closeBeacons">
+                <div class="row">
+                    <div class="col truncate">
+                        Minor: {{key}}
+                    </div>
+                    <div class="col truncate">
+                        Major: {{value}}
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    RSSI list
+                </div>
+            </div>
+            <div class="item" ng-repeat="(key, value) in closeRSSI">
+                <div class="row">
+                    <div class="col truncate">
+                        Minor: {{key}}
+                    </div>
+                    <div class="col truncate">
+                        RSSI: {{value}}
+                    </div>
+                </div>
+            </div>
+            <div class="item">
+                <div class="row">
+                    <div class="col truncate">
+                        {{currentTime}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col truncate">
+                        Poll time yet: {{isPoll}}
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col truncate">
+                        minor Closest RSSI: {{cardMinorEvent}}
+                        {{test}}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>

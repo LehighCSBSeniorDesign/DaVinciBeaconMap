@@ -1,0 +1,19 @@
+<ion-view view-title="Setting">
+    <ion-content>
+        <ion-list>
+            <ion-item href="#/tab/beacon-test">Beacon test</ion-item>
+            <ion-item href="#/tab/change_pv">Change Polling Rate</ion-item>
+            <ion-item href="#/tab/change_fv">Change Far Range RSSI bound</ion-item>
+            <ion-item href="#/tab/change_nv">Change Near Range RSSI bound</ion-item>
+            <ion-item ng-click="show()">Push Modal</ion-item>
+            <ion-item ng-click="requestAuth()">Request Permission</ion-item>
+        </ion-list>
+        <br/>
+        <div style="text-align: center;">
+        <h1>current settings</h1>
+        <p>Polling Rate: {{PV}}</p>
+        <p>Far Range: {{FV}}</p>
+        <p>Near Range: {{NV}}</p>
+        </div>
+    </ion-content>
+</ion-view>

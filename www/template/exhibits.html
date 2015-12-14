@@ -1,0 +1,19 @@
+<ion-view view-title="Exhibits">
+    <ion-content class="padding">
+        <div class="row" ng-repeat="rows in splitData">
+            <div class="col col-33" ng-repeat="data in rows">
+            <a class="card" href='#/tab/cards/{{areaId}}/{{data.id}}'>
+                <div class="card display">
+                    <div class="item item-divider" ng-class="{'item-energized': checkYellow(data.minor), 'item-balanced': checkGreen(data.minor)}">
+                        {{data.name}}
+                    </div>
+                    <div class="content">
+                        <img src="img/{{data.picture}}" alt="picture">
+                    </div>
+                </div>
+                </a>
+            </div>
+        </div>
+
+    </ion-content>
+</ion-view>

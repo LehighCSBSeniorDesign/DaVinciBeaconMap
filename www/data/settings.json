@@ -1,0 +1,8 @@
+{
+"settings": [
+{
+    "farValue": -95,
+    "nearValue": -85,
+    "pollingValue": 10
+}]
+}

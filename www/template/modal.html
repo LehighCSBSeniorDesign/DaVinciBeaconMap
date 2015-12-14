@@ -1,0 +1,20 @@
+<ion-modal-view>
+<div ng-click="forward({{ai}} {{ei}})">
+    <ion-header-bar>
+        <h1 class="title">{{name}}</h1>
+        <div class="buttons">
+            <button class="button button-clear" ng-click="closeModal()">Close</button>
+        </div>
+    </ion-header-bar>
+    <ion-content>
+        <div class="imageLayer">
+            <img src="img/{{picture}}" alt="picture">
+        </div>
+        <div class="shortInfo">
+            {{info}}
+            {{ai}}
+            {{ei}}
+        </div>
+    </ion-content>
+    </div>
+</ion-modal-view>

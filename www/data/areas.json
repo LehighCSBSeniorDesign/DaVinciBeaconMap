@@ -1,0 +1,24 @@
+{
+"areas": [
+{
+    "id": 0,
+    "name": "Main Exhibit Floor",
+    "picture": "picture1.jpg",
+    "major": "1"
+}, {
+    "id": 1,
+    "name": "Second Floor",
+    "picture": "picture2.jpg",
+    "major": "123"
+}, {
+	"id": 2,
+	"name": "Preschool Area",
+    "picture": "picture3.jpg",
+    "major": "2"
+}, {
+	"id": 3,
+	"name": "Traveling Exhibit",
+    "picture": "picture4.jpg",
+    "major": "3"
+	}]
+}

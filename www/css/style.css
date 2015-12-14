@@ -1,0 +1,50 @@
+/* Empty. Add your own CSS if you like */
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.bar-stable .title {
+	text-align: center;
+
+}
+
+.display {
+  height: 300px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.bar-stable .title {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}
+
+a.card {
+  text-decoration: none;
+}
+
+.change-form {
+  margin: 0 auto;
+  width: 300px;
+}
+
+.imageLayer {
+  text-align: center;
+}
+
+.body {
+  text-align: left;
+}
+
+.title {
+  text-align: center;
+}

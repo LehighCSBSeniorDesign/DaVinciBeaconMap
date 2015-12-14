@@ -1,0 +1,93 @@
+{
+    "area": [{
+        "id": 0,
+        "exhibits": [{
+            "id": 0,
+            "name": "Exhibit 1",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit1.jpg",
+            "minor": "0"
+        }, {
+            "id": 1,
+            "name": "Exhibit 2",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit2.jpg",
+            "minor": "0"
+        }, {
+            "id": 2,
+            "name": "Exhibit 3",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit3.jpg",
+            "minor": "0"
+        }, {
+            "id": 3,
+            "name": "Exhibit 4",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit4.jpg",
+            "minor": "0"
+        }, {
+            "id": 4,
+            "name": "Exhibit 5",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit5.jpg",
+            "minor": "0"
+        }, {
+            "id": 5,
+            "name": "Exhibit 6",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit6.jpg",
+            "minor": "0"
+        }, {
+            "id": 6,
+            "name": "Exhibit 7",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit7.jpg",
+            "minor": "0"
+        }]
+    }, {
+        "id": 1,
+        "exhibits": [{
+            "id": 0,
+            "name": "Exhibit 1",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit1.jpg",
+            "minor": "1"
+        }, {
+            "id": 1,
+            "name": "Exhibit 2",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit2.jpg",
+            "minor": "2"
+        }, {
+            "id": 2,
+            "name": "Exhibit 3",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit3.jpg",
+            "minor": "3"
+        }, {
+            "id": 3,
+            "name": "Exhibit 4",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit4.jpg",
+            "minor": "4"
+        }, {
+            "id": 4,
+            "name": "Exhibit 5",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit5.jpg",
+            "minor": "5"
+        }, {
+            "id": 5,
+            "name": "Exhibit 6",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit6.jpg",
+            "minor": "6"
+        }, {
+            "id": 6,
+            "name": "Exhibit 7",
+            "info": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nihil facilis saepe nam sequi, numquam, nisi! Reprehenderit quisquam ex esse facilis dolor est quas earum ea, sunt, cupiditate vita cumque, soluta.",
+            "picture": "exhibit7.jpg",
+            "minor": "7"
+        }]
+    }]
+}

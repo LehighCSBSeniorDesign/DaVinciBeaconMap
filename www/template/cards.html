@@ -1,0 +1,76 @@
+<ion-view view-title="Areas">
+    <ion-content class="padding">
+        <div class="row" ng-repeat="rows in splitData">
+            <div class="col col-50" ng-repeat="data in rows">
+                <a class="card" href='#/tab/cards/{{data.id}}'>
+                    <div class="card display item-remove-animate">
+                        <div class="item item-divider">
+                            {{data.name}}
+                        </div>
+                        <div class='content'>
+                            <img src="img/{{data.picture}}" alt="picture">
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </ion-content>
+</ion-view>
+
+
+        <!--
+<div class="row">
+	<div class="col col-33">
+		<div class="card">
+			<div class="item item-divider">
+				Exhibit 1
+			</div>
+			<div class="item item-text-wrap">
+				basic card test
+			</div>
+		</div>
+	</div>
+	<div class="col col-33">
+		<div class="card">
+			<div class="item item-divider">
+				Exhibit 2
+			</div>
+			<div class="item item-text-wrap">
+				basic card test1
+			</div>
+		</div>
+	</div>
+	<div class="col col-33">
+		<div class="card">
+			<div class="item item-divider">
+				Exhibit 3
+			</div>
+			<div class="item item-text-wrap">
+				basic card test2
+			</div>
+		</div>
+	</div>
+</div>
+<div class="row">
+	<div class="col col-50">
+		<div class="card">
+			<div class="item item-divider">
+				Exhibit 4
+			</div>
+			<div class="item item-text-wrap">
+				basic card test3
+			</div>
+		</div>
+	</div>
+	<div class="col col-50">
+		<div class="card">
+			<div class="item item-divider">
+				Exhibit 5
+			</div>
+			<div class="item item-text-wrap">
+				basic card test4
+			</div>
+		</div>
+	</div>
+</div>
+-->
